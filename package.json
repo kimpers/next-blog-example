@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "forestry:preview": "yarn dev -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",

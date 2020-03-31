@@ -15,7 +15,6 @@ module.exports = {
     };
     //get all .md files in the posts dir
     const blogs = glob.sync("posts**/*.md");
-    console.log(blogs);
 
     //remove path and extension to leave filename only
     const blogSlugs = blogs.map((file) =>
@@ -30,8 +29,6 @@ module.exports = {
     blogSlugs.forEach((blog) => {
       routes[`/blog/${blog}`] = { page: "/blog/[slug]", query: { slug: blog } };
     });
-
-    console.log(routes);
 
     return routes;
   },
