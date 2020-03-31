@@ -1,3 +1,4 @@
+---
 label: Blog
 hide_body: false
 fields:
@@ -29,3 +30,4 @@ fields:
   name: hero_image
   label: hero_image
 pages:
+- src/posts/hello-world-from-forestry.md
