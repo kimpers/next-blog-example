@@ -14,12 +14,13 @@ module.exports = {
       "/info": { page: "/info" },
     };
     //get all .md files in the posts dir
-    const blogs = glob.sync("src/posts/**/*.md");
+    const blogs = glob.sync("posts**/*.md");
+    console.log(blogs);
 
     //remove path and extension to leave filename only
     const blogSlugs = blogs.map((file) =>
       file
-        .split("/")[2]
+        .split("/")[1]
         .replace(/ /g, "-")
         .slice(0, -3)
         .trim()

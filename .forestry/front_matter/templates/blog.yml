@@ -7,19 +7,6 @@ fields:
   label: title
   config:
     required: true
-- name: author
-  type: select
-  default: The Collective Unconscious
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: author-list
-      file: src/data/authors.json
-      path: authors
-  label: author
-  description: Choose author's name, add new author via Author List in  Sidebar
 - type: datetime
   name: date
   label: date
