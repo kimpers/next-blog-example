@@ -26,5 +26,3 @@ fields:
   config:
     required: true
   default: now
-pages:
-- src/posts/hello-world-from-forestry.md
