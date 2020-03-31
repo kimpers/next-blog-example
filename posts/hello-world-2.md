@@ -6,3 +6,5 @@ title: Hello World 2
 # Hello world 2!
 
 **Does** this work?
+
+![](/posts/winning.gif)
