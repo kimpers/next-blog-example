@@ -1,4 +1,9 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: fds
+  type: text
+  config:
+    required: false
+  label: fds
