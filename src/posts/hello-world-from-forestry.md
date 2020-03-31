@@ -5,4 +5,8 @@ title: Hello world from forestry
 hero_image: ''
 
 ---
-Hello World
+# Hello World
+
+![](src/static/winning.gif)
+
+Hello world
