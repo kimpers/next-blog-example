@@ -26,3 +26,5 @@ fields:
   config:
     required: true
   default: now
+pages:
+- posts/hello-world.md
